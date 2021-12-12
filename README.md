@@ -2,7 +2,7 @@
 
 ## Background
 
-The SGP4 library is ported from [here](https://github.com/dnwrnr/sgp4)
+The C++ SGP4 library is ported from [here](https://github.com/dnwrnr/sgp4)
 
 Initial port was done by [sataas](https://github.com/akhenakh/sataas)
 

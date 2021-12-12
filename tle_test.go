@@ -4,8 +4,6 @@ import (
 	"os"
 	"testing"
 
-	"github.com/stretchr/testify/require"
-
 	"github.com/SharkEzz/sgp4"
 )
 
@@ -70,6 +68,7 @@ func TestActives(t *testing.T) {
 		t.Errorf("Error reading TLEs: %s", err)
 	}
 
-	// 8232 lines
-	require.Len(t, tles, 8226/3)
+	if len(tles) != 8226/3 {
+		t.Errorf("Total length not match: %v", len(tles))
+	}
 }
