@@ -1,5 +1,7 @@
 # SGP4 library for Go
 
+[![Go Reference](https://pkg.go.dev/badge/github.com/SharkEzz/sgp4.svg)](https://pkg.go.dev/github.com/SharkEzz/sgp4)
+
 ## Background
 
 The C++ SGP4 library is ported from [here](https://github.com/dnwrnr/sgp4)
