@@ -15,5 +15,6 @@ Initial port was done by [sataas](https://github.com/akhenakh/sataas)
 
 ## TODO
 
-- Remove all unnecessary dependencies for testing
-- Enhance SGP4 Go API by adding more native C++ library functions
+- [x] Remove all unnecessary dependencies for testing
+- [ ] Enhance SGP4 Go API by adding more native C++ library functions
+- [ ] Enhance documentation
