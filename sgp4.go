@@ -114,7 +114,7 @@ func (p *SGP4) GeneratePasses(lat, lng, alt float64, start, stop time.Time, step
 		cpd := cdetails.Get(i)
 
 		aos := timeFromJulian(cpd.GetAos().ToJulian())
-		los := timeFromJulian(cpd.GetAos().ToJulian())
+		los := timeFromJulian(cpd.GetLos().ToJulian())
 
 		details[i] = PassDetails{
 			AOS:          aos,
